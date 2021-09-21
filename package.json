@@ -65,6 +65,7 @@
     "jest-puppeteer": "^5.0.4",
     "less": "^4.1.1",
     "less-loader": "^10.0.1",
+    "lint-staged": "^11.1.2",
     "merge2": "^1.4.1",
     "mini-css-extract-plugin": "^2.3.0",
     "postcss-loader": "^6.1.1",

@@ -1280,6 +1280,15 @@ deploy:
       branch: master
 ```
 
+### 10.2 travis-ci 上设置 [`npm token`](https://www.npmjs.com/settings/jamesezhang/tokens) 和 [`GitHub token`](https://github.com/settings/tokens)
+
+![2.png](./imgs/2.png)
+
+
+### 10.3 查看构建记录
+
+![3.png](./imgs/3.png)
+
 ## 参考资料
 
 - [travis-ci是什么](https://github.com/yimogit/metools/blob/master/%E4%BD%BF%E7%94%A8travis-ci%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2github%E4%B8%8A%E7%9A%84%E9%A1%B9%E7%9B%AE.md)
