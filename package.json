@@ -26,9 +26,28 @@
     "lint: fix": "eslint --fix --ext .js,.jsx,.ts,.tsx components",
     "prepare": "husky install"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.org"
+  },
+  "homepage": "https://golderbrother.github.io/antd-component",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golderbrother/antd.git"
+  },
+  "keywords": [
+    "ant",
+    "component",
+    "components",
+    "design",
+    "framework",
+    "frontend",
+    "react",
+    "react-component",
+    "ui"
+  ],
+  "author": "golderbrother",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/plugin-transform-runtime": "^7.15.0",

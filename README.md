@@ -63,7 +63,7 @@ npm init -y
     "access": "public",
     "registry": "http://registry.npmjs.org"
   },
-  "homepage": "https://golderbrother.github.io/antd",
+  "homepage": "https://golderbrother.github.io/antd-component",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/golderbrother/antd.git"
@@ -1288,6 +1288,14 @@ deploy:
 ### 10.3 查看构建记录
 
 ![3.png](./imgs/3.png)
+
+![4.png](./imgs/4.png)
+
+### 10.4 看下最终效果
+
+[Ant Design of React](https://golderbrother.github.io/antd-component/?path=/story/%E5%BC%80%E5%A7%8B-%E4%BB%8B%E7%BB%8D--page)
+
+![5.png](./imgs/5.png)
 
 ## 参考资料
 
