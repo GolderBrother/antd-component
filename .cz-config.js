@@ -1,0 +1,31 @@
+module.exports = {
+  types: [
+    { value: 'feat', name: 'feat:     新增功能（feature）' },
+    { value: 'fix', name: 'fix:      修复 bug' },
+    { value: 'docs', name: 'docs:     文档变更' },
+    { value: 'style', name: 'style:    不会影响代码含义的更改（空格，格式，缺少分号等）' },
+    { value: 'refactor', name: 'refactor: 代码重构，（既不是新增功能，也不是修复bug的代码变动）' },
+    { value: 'perf', name: 'perf:     改进性能' },
+    { value: 'test', name: 'test:     增加测试或更新已有的测试' },
+    { value: 'chore', name: 'chore:    构建或辅助工具或依赖库的更新' },
+    { value: 'revert', name: 'revert:   回滚提交' },
+    { value: 'build', name: 'build:    构建编译相关的变动或打包' },
+    {
+      value: 'ci',
+      name: 'ci:       CI配置文件和脚本的更改（示例范围：Travis，Circle，BrowserStack，SauceLabs）',
+    },
+  ],
+  messages: {
+    type: '请选择提交类型:',
+    customScope: '请输入修改范围(可选):',
+    subject: '请简要描述提交(必填):',
+    body: '请输入详细描述(可选，待优化去除，跳过即可):',
+    // breaking: 'List any BREAKING CHANGES (optional):\n',
+    footer: '请输入要关闭的issue选填，或 BREAK CHANGE(待优化去除，跳过即可):',
+    confirmCommit: '确认使用以上信息提交？(y/n/e/h)',
+  },
+  allowCustomScopes: true,
+  // allowBreakingChanges: ['feat', 'fix'],
+  skipQuestions: ['body', 'footer'],
+  subjectLimit: 72,
+};
