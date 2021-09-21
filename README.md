@@ -1132,7 +1132,9 @@ npx husky add .husky/pre-push "npm run test"
 yarn add rimraf gulp gulp-typescript gulp-babel merge2 --dev
 
 npm version patch
-npm publish
+npm config set registry https://registry.npmjs.org/
+npm adduser
+npm publish --access=public
 cat ~/.npmrc
 ```
 
